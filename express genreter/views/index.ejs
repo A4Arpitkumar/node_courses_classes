@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <title>Login Form</title>
+</head>
+<body>
+   
+    <form method="post" action="/getdata">
+        <h1>Name:</h1>
+        <input type="text" name="name"/>
+
+        <h1>Email:</h1>
+        <input type="text" name="email" />
+
+        <h1>Age:</h1>
+        <input type="text" name="age"/>
+
+        <h1>Gender:</h1>
+        <input type="radio" name="gender" value="Male"/>Male
+        <input type="radio" name="gender" value="Female"/>Female
+
+        <h1>Address:</h1>
+        <input type="text" name="address"/>
+
+        <h1>Contact:</h1>
+        <input type="text" name="contact"/>
+
+        <h1>Course:</h1>
+        <select name="course"> 
+        <option value="course">Course</option>
+        <option value="BCA">BCA</option>  
+        <option value="BBA">BBA</option>  
+        <option value="B.COM">B.COM</option>  
+        </select>
+
+        <h1>Password:</h1>
+        <input type="password" name="password"/>
+
+        
+        <h1>ReType-Password:</h1>
+        <input type="password" name="retypepassword"/>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+   
+    
+</body>
+</html>
